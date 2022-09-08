@@ -1,0 +1,287 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bg {
+    /* The image used */
+    background-image:url("https://cdn.quotesgram.com/img/10/11/1734174205-Funny-Minions-HD-Wallpapers.jpg");
+
+    /* Add the blur effect */
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the ima
+    ge nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bd{
+    color: #FFFFFF;
+    font-size:30px;
+    font-family: 'Righteous', cursive;
+    border: 0px solid #f1f1f1;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    border-radius:25px;
+    box-shadow: 0 0 20px #FFFFFF;
+
+  }
+  h1{
+    color: : 0 0 20px #0FFFFF;
+  }
+
+  .cont{
+    color:#000000;
+    font-size:22px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: 0px solid #f1f1f1;
+    position: absolute;
+    top: 55%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    background:rgba(255,255,255, 0.3);
+    border-radius:10px;
+
+  }
+
+ .cont:hover{
+   color: white;
+   background: rgba(0,0,0,0.5);
+   text-decoration: none;
+  box-shadow: 0 0 20px #FFFFFF;
+ }
+ .cont1{
+   color:#000000;
+   font-size:22px;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   border: 0px solid #f1f1f1;
+   position: absolute;
+   top: 37%;
+   left: 65%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 30%;
+   padding: 10px;
+   text-align: center;
+   background:rgba(255,255,255, 0.3);
+   border-radius:10px;
+ }
+
+.cont1:hover{
+  color: white;
+  background: rgba(0,0,0,0.5);
+  text-decoration: none;
+  box-shadow: 0 0 20px #FFFFFF;
+}
+
+.cont2{
+  color:#000000;
+  font-size:22px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  border: 0px solid #f1f1f1;
+  position: absolute;
+  top: 73%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  background:rgba(255,255,255, 0.3);
+  border-radius:10px;
+}
+
+.cont2:hover{
+ color: white;
+ background: rgba(0,0,0,0.5);
+ text-decoration: none;
+ box-shadow: 0 0 25px #FFFFFF;
+}
+ .grid{
+   position: absolute;
+   left: 10%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 10%;
+   padding: 20px;
+   text-align: center;
+ }
+ .grid1{
+   position: absolute;
+   left: 90%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+   width: 10%;
+   padding: 20px;
+   text-align: center;
+ }
+ img{
+   width: 165px;
+   padding: 14px;
+  /* transform: translate(-50%, -50%); */
+}
+
+.fa{
+  color: black;
+  top: 95%;
+  position: absolute;
+  left: 42%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*responsive for media queries*/
+@media screen and (max-width:1043px){
+    .cont{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width:974px){
+  .bd{
+    width:85%;
+    top:60%;
+    font-size: 17px;  }
+  .cont{
+      width:85%;
+      top:60%;
+      font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:770px){
+  .bd{
+    width:85%;
+    top:60%;
+    font-size: 17px;  }
+  .cont{
+      width:85%;
+      top:60%;
+      font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+  }
+@media screen and (max-width:560px){
+  .bd{
+    width:85%;
+    top:60%;
+    font-size: 17px;  }
+  .cont{
+      width:85%;
+      top:60%;
+      font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:447px){
+  .bd{
+    width:85%;
+    top:60%;
+    font-size: 17px;  }
+  .cont{
+      width:85%;
+      top:60%;
+      font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:380px){
+  .bd{
+    width:85%;
+    top:60%;
+    font-size: 17px;  }
+  .cont{
+      width:85%;
+      top:60%;
+      font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:321px){
+  .bd{
+    width:85%;
+    top:60%;
+    font-size: 17px;  }
+  .cont{
+      width:85%;
+      top:60%;
+      font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+    .cont1{
+        width:85%;
+        top:60%;
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,225 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .bg {
+    /* The image used */
+    background-image:url("https://c.ndtvimg.com/2022-06/1on4k02o_national-best-friend-day-2022-_625x300_08_June_22.jpg?im=Resize=(1230,900)");
+
+    /* Add the blur effect */
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* Position text in the middle of the page/image */
+
+  .avatardiv{
+      position: absolute;
+      top: 8%;
+      left: 43%;
+}
+
+    .avatar{
+        width:50%;
+        border-radius: 50%;
+    }
+
+
+  .content{
+      color:#FFFFFF;
+      font-size:30px;
+      font-family: 'Righteous', cursive;
+      border: 0px solid #f1f1f1;
+      position: absolute;
+      top: 46%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 80%;
+      padding: 15px;
+      text-align: center;
+      background-color: rgba(0,0,0, 0.5);
+      border-radius:25px;
+    }
+
+    .sub-content{
+      color:#000000;
+      font-size:30px;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      border: 0px solid #f1f1f1;
+      position: absolute;
+      top: 73.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 55%;
+      padding: 20px;
+      text-align: center;
+      background:rgba(255,255,255, 0.3);
+      border-radius:10px;
+    }
+
+
+    /* Button */
+  nav {
+    position: absolute;
+    top: 91.7%;
+    left: 49.5%;
+    font-size:50px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 43%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  a {
+  	color: black;
+  	text-decoration: none;
+    font-size: 0.6em;
+  	font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 15px 40px;
+    background:  #eee;
+    transform: translate(-50%, -50%);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #00FFFF;
+    text-decoration: none;
+  }
+
+  a:hover {
+      color: white;
+      background: lightblue;
+      padding: 15px 40px;
+      text-decoration: none;
+  }
+
+    /*responsive for media queries*/
+    @media screen and (max-width:1043px){
+      .avatardiv{
+        width: 50%;
+      }
+        .sub-content{
+            font-size: 28px;
+        }
+    }
+    @media screen and (max-width:974px){
+      .avatardiv{
+        width: 50%;
+      }
+        .content{
+            top:30%;
+        }
+      .sub-content{
+          top:60%;
+          font-size: 26px;
+      }
+      #nextpage{
+          font-size: 60px;
+      }
+    }
+    @media screen and (max-width:770px){
+      .avatardiv{
+        width: 50%;
+      }
+        .content{
+            font-size: 20px;
+            padding: 10px;
+            top:30%;
+        }
+        .sub-content{
+            top: 65%;
+            width:85%;
+        }
+        #nextpage{
+            width:80%;
+            font-size: 40px;
+        }
+    }
+    @media screen and (max-width:560px){
+      .avatardiv{
+        width: 50%;
+      }
+        .content{
+            top:30%;
+            font-size: 20px;
+            padding: 10px;
+        }
+        .sub-content{
+            width:85%;
+            top:65%;
+            font-size: 23px;
+        }
+        #nextpage{
+            font-size: 38px;
+        }
+    }
+    @media screen and (max-width:447px){
+      .avatardiv{
+        width: 50%;
+      }
+        .content{
+            top:25%;
+            font-size: 16px;
+            padding: 8px;
+        }
+        .sub-content{
+            width:75%;
+            top:60%;
+            font-size: 20px;
+        }
+        #nextpage{
+            font-size: 38px;
+            top:90%;
+            width: 80%;
+        }
+    }
+    @media screen and (max-width:380px){
+      .avatardiv{
+        width: 50%;
+      }
+        .content{
+            top:25%;
+            font-size: 18px;
+            padding: 8px;
+        }
+        .sub-content{
+            width:75%;
+            top:60%;
+            font-size: 18px;
+        }
+        #nextpage{
+            font-size: 33px;
+            top:90%;
+            width: 75%;
+        }
+    }
+    @media screen and (max-width:321px){
+      .avatardiv{
+        width: 50%;
+      }
+        .content{
+            top:25%;
+            font-size: 15px;
+            padding: 5px;
+        }
+        .sub-content{
+            width:85%;
+            top:60%;
+            font-size: 17px;
+        }
+        #nextpage{
+            font-size: 30px;
+            top:85%;
+            width: 80%;
+        }
+    }
